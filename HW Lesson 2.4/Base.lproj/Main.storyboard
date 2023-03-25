@@ -44,16 +44,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ajb-ex-xse">
-                                                <rect key="frame" x="66" y="0.0" width="36" height="30"/>
+                                                <rect key="frame" x="66" y="0.0" width="42" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="36" id="7f3-Pg-UpP"/>
+                                                    <constraint firstAttribute="width" constant="42" id="7f3-Pg-UpP"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mdf-sX-AmW">
-                                                <rect key="frame" x="114" y="0.0" width="249" height="31"/>
+                                                <rect key="frame" x="120" y="0.0" width="243" height="31"/>
                                                 <color key="tintColor" systemColor="systemRedColor"/>
                                                 <connections>
                                                     <action selector="sliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="ba6-an-BzC"/>
@@ -77,16 +77,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le6-ng-e0G">
-                                                <rect key="frame" x="66" y="0.0" width="36" height="30"/>
+                                                <rect key="frame" x="66" y="0.0" width="40" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="36" id="r86-X3-6y1"/>
+                                                    <constraint firstAttribute="width" constant="40" id="r86-X3-6y1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="34H-8T-cr9">
-                                                <rect key="frame" x="114" y="0.0" width="249" height="31"/>
+                                                <rect key="frame" x="118" y="0.0" width="245" height="31"/>
                                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="175" id="JhF-Zo-Io0"/>
@@ -113,16 +113,16 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sm-jR-p87">
-                                                <rect key="frame" x="66" y="0.0" width="36" height="30"/>
+                                                <rect key="frame" x="66" y="0.0" width="40" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="36" id="dPT-zk-ays"/>
+                                                    <constraint firstAttribute="width" constant="40" id="dPT-zk-ays"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Jki-zt-f4P">
-                                                <rect key="frame" x="114" y="0.0" width="249" height="31"/>
+                                                <rect key="frame" x="118" y="0.0" width="245" height="31"/>
                                                 <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="175" id="zBx-uI-vo2"/>
