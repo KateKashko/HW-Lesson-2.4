@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9371C06F29CEDD1B00DDEF21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371C06E29CEDD1B00DDEF21 /* AppDelegate.swift */; };
 		9371C07129CEDD1B00DDEF21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371C07029CEDD1B00DDEF21 /* SceneDelegate.swift */; };
-		9371C07329CEDD1B00DDEF21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371C07229CEDD1B00DDEF21 /* ViewController.swift */; };
+		9371C07329CEDD1B00DDEF21 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9371C07229CEDD1B00DDEF21 /* SettingsViewController.swift */; };
 		9371C07629CEDD1B00DDEF21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9371C07429CEDD1B00DDEF21 /* Main.storyboard */; };
 		9371C07829CEDD1D00DDEF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9371C07729CEDD1D00DDEF21 /* Assets.xcassets */; };
 		9371C07B29CEDD1D00DDEF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9371C07929CEDD1D00DDEF21 /* LaunchScreen.storyboard */; };
+		93AECA1429E5CC2300F8C8D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9371C06B29CEDD1B00DDEF21 /* HW Lesson 2.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW Lesson 2.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9371C06E29CEDD1B00DDEF21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9371C07029CEDD1B00DDEF21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9371C07229CEDD1B00DDEF21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9371C07229CEDD1B00DDEF21 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		9371C07529CEDD1B00DDEF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9371C07729CEDD1D00DDEF21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9371C07A29CEDD1D00DDEF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9371C07C29CEDD1D00DDEF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		9371C06D29CEDD1B00DDEF21 /* HW Lesson 2.4 */ = {
 			isa = PBXGroup;
 			children = (
-				9371C06E29CEDD1B00DDEF21 /* AppDelegate.swift */,
-				9371C07029CEDD1B00DDEF21 /* SceneDelegate.swift */,
-				9371C07229CEDD1B00DDEF21 /* ViewController.swift */,
+				93AECA1229E5CB8F00F8C8D9 /* App */,
+				9371C07229CEDD1B00DDEF21 /* SettingsViewController.swift */,
+				93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */,
 				9371C07429CEDD1B00DDEF21 /* Main.storyboard */,
 				9371C07729CEDD1D00DDEF21 /* Assets.xcassets */,
 				9371C07929CEDD1D00DDEF21 /* LaunchScreen.storyboard */,
-				9371C07C29CEDD1D00DDEF21 /* Info.plist */,
 			);
 			path = "HW Lesson 2.4";
+			sourceTree = "<group>";
+		};
+		93AECA1229E5CB8F00F8C8D9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9371C07C29CEDD1D00DDEF21 /* Info.plist */,
+				9371C07029CEDD1B00DDEF21 /* SceneDelegate.swift */,
+				9371C06E29CEDD1B00DDEF21 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9371C07329CEDD1B00DDEF21 /* ViewController.swift in Sources */,
+				9371C07329CEDD1B00DDEF21 /* SettingsViewController.swift in Sources */,
 				9371C06F29CEDD1B00DDEF21 /* AppDelegate.swift in Sources */,
 				9371C07129CEDD1B00DDEF21 /* SceneDelegate.swift in Sources */,
+				93AECA1429E5CC2300F8C8D9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +301,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PMP3UQ276;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW Lesson 2.4/Info.plist";
+				INFOPLIST_FILE = "HW Lesson 2.4/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +332,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7PMP3UQ276;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HW Lesson 2.4/Info.plist";
+				INFOPLIST_FILE = "HW Lesson 2.4/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
