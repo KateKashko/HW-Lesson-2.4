@@ -19,16 +19,18 @@ final class SettingsViewController: UIViewController {
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
     
-
+    var bgColor: BgColor!
+    var delegate: SettingsViewControllerDelegate?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setColor()
-        
         redLabel.text = string(from: redSlider)
         greenLabel.text = string(from: greenSlider)
         blueLabel.text = string(from: blueSlider)
     }
-
+    
     @IBAction func sliderAction(_ sender: UISlider) {
         setColor()
         switch sender {
@@ -41,8 +43,14 @@ final class SettingsViewController: UIViewController {
         }
     }
     
+    
+    @IBAction func doneButtonPressed(_ sender: UIButton) {
+        view.endEditing(true)
+        //delegate?.passColor(color: bgColor)
+    }
+    
     private func setColor() {
-    colorChangingView.backgroundColor = UIColor(
+        colorChangingView.backgroundColor = UIColor(
             red: CGFloat(redSlider.value),
             green: CGFloat(greenSlider.value),
             blue: CGFloat(blueSlider.value),

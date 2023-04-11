@@ -14,6 +14,7 @@
 		9371C07829CEDD1D00DDEF21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9371C07729CEDD1D00DDEF21 /* Assets.xcassets */; };
 		9371C07B29CEDD1D00DDEF21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9371C07929CEDD1D00DDEF21 /* LaunchScreen.storyboard */; };
 		93AECA1429E5CC2300F8C8D9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */; };
+		93AECA1629E5E37F00F8C8D9 /* BGcolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AECA1529E5E37F00F8C8D9 /* BGcolor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9371C07A29CEDD1D00DDEF21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9371C07C29CEDD1D00DDEF21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		93AECA1529E5E37F00F8C8D9 /* BGcolor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGcolor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				93AECA1229E5CB8F00F8C8D9 /* App */,
 				9371C07229CEDD1B00DDEF21 /* SettingsViewController.swift */,
 				93AECA1329E5CC2300F8C8D9 /* MainViewController.swift */,
+				93AECA1529E5E37F00F8C8D9 /* BGcolor.swift */,
 				9371C07429CEDD1B00DDEF21 /* Main.storyboard */,
 				9371C07729CEDD1D00DDEF21 /* Assets.xcassets */,
 				9371C07929CEDD1D00DDEF21 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9371C07329CEDD1B00DDEF21 /* SettingsViewController.swift in Sources */,
+				93AECA1629E5E37F00F8C8D9 /* BGcolor.swift in Sources */,
 				9371C06F29CEDD1B00DDEF21 /* AppDelegate.swift in Sources */,
 				9371C07129CEDD1B00DDEF21 /* SceneDelegate.swift in Sources */,
 				93AECA1429E5CC2300F8C8D9 /* MainViewController.swift in Sources */,
